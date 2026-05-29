@@ -545,6 +545,25 @@ summary:focus-visible {
   font-size: 0.74rem;
 }
 
+.seo-prose-grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.seo-prose-block {
+  padding: 1.15rem;
+}
+
+.seo-prose-block h3 {
+  font-size: 1.15rem;
+  margin-bottom: 0.65rem;
+  color: var(--text);
+}
+
+.seo-prose-block p + p {
+  margin-top: 0.75rem;
+}
+
 .seo-mini-card {
   overflow: hidden;
 }
@@ -967,8 +986,12 @@ summary:focus-visible {
     grid-template-columns: 1.08fr 0.92fr;
   }
 
+  .seo-prose-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
   .seo-card-grid {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .seo-checklist-grid {
