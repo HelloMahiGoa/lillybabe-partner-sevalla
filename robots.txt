@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://lillybabe-xn3d8.sevalla.page/sitemap.xml
+Sitemap: https://lillybabe-qpxr8.sevalla.page/sitemap.xml

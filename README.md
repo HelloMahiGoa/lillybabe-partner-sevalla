@@ -2,7 +2,7 @@
 
 Static HTML site for [Sevalla](https://sevalla.com/) static hosting.
 
-**Live URL:** https://lillybabe-xn3d8.sevalla.page/
+**Live URL:** https://lillybabe-qpxr8.sevalla.page/
 
 ## Deploy (Git push)
 
