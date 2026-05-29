@@ -1,0 +1,18 @@
+name: Deploy to Sevalla
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: sevalla-hosting/sevalla-deploy@v2.0.0
+        with:
+          action: deploy-static-site
+          sevalla-token: ${{ secrets.SEVALLA_TOKEN }}
+          static-site-id: 38b0826a-0b05-4527-bd82-06292589b1e8
+          branch: main
+          wait-for-finish: true
